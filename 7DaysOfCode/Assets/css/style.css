@@ -1,0 +1,405 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    color: #3A404E;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    height: 27px;
+    width: 148px;
+    gap: 8px;
+}
+
+.logo {
+    height: 27px;
+    width: 27px;
+}
+
+.logo-texto {
+    color: #3A404E;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 119px;
+}
+
+
+
+.nav__menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.nav__link {
+    padding-right: 32px;
+    text-decoration: none;
+    color: #667085;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+    transition: all 1s;
+}
+
+.nav__select {
+    font-weight: bold;
+    color: #3A404E;
+}
+
+.nav__link:hover {
+    color:#8E2424;
+}
+
+
+.nav__menu-login {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 380px;
+}
+
+.link__cadastro {
+    background: #8E2424;
+    color: #ffffff;
+    padding-right: 0;
+    padding: 10px 18px;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.link__cadastro:hover {
+    border-color: #667085;
+    background: #5c1717;
+}
+
+.banner__primario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    margin: 96px 0 107px 0;
+}
+
+.subtitulo {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 24px;
+    
+}
+
+.titulo__primario {
+    color: #101828;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    padding-bottom: 36px;
+}
+
+.banner__primario p {
+    color: #667085;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 791px;
+    text-align: center;
+}
+
+.vantagens {
+    padding: 0 112px 96px 112px;
+}
+
+.vantagens__lista {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.vantagens__card {
+    height: 168px;
+    width: 280px;
+    list-style: none;
+}
+
+.card__number {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.card__titulo {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 0 8px 0 ;
+    margin: 0;
+}
+
+.card__descricao {
+    color: #667085;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+
+   
+
+}
+
+.subtitulo__back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subtitulo_vagas {
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+
+.titulo__primario-vagas {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 0;
+}
+
+.texto__vagas {
+    margin: 0;
+    padding: 0;
+}
+
+.vagas__banner {
+    width: 76rem;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 64px;
+}
+
+.container__job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 64px;
+    margin: 64px 0;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 32px 0 24px 0;
+}
+
+.job__card {
+    margin: auto;
+}
+
+.titulo__job {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0;
+    
+}
+
+.card__job-titulo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0;
+    width: 720px;
+}
+
+.job__salario {
+    display: flex;
+    gap: 24px;
+    padding: 32px 0 4px 0;
+    
+}
+
+.texto__time {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    padding: 0;
+}
+
+.texto__salario {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    padding: 0;
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 96px;
+}
+
+.colaboradores__banner {
+    width: 1105px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px;
+}
+
+.colaboradores__texto {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.colaboradores__titulo {
+    color: #101828;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.colaborador__nome {
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0 4px 0;
+}
+
+.colaborador__job {
+    color: #667085;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F9FAFB;
+    text-align: center;
+    padding: 96px 0;
+}
+
+.footer_email {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__titulo {
+    color: #101828;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+
+.footer__texto {
+    color: #667085;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 40px 0;
+}
+
+#email {
+    width: 360px;
+    height: 24px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-right: 16px;
+    padding: 12px 14px 12px 16px;
+    color: #667085;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#email:focus {
+   outline-color:  #667085;
+}
+
+#email::-webkit-input-placeholder{
+    color: #667085;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.enviar {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+.copy {
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 32px 0 0 0;
+}
+
+.enviar:hover {
+    border-color: #667085;
+    background: #5c1717;
+}
